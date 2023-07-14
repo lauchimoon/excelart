@@ -1,0 +1,7 @@
+Requirements:
+go get github.com/xuri/excelize/v2
+
+Running:
+go run main.go
+
+Takes f.txt as default. File selection to be added
