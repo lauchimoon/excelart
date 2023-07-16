@@ -67,7 +67,8 @@ func check(err error) {
 }
 
 func main() {
-	f, err := os.Open("creep.png")
+	filename := os.Args[1]
+	f, err := os.Open(filename)
 	check(err)
 	defer f.Close()
 
